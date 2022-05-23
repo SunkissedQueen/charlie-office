@@ -28,7 +28,17 @@ You will be creating a personal repository to store this react application. This
 Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>?
 ```
 - Ensure you have React fragments within your return that encapsulates all the code that you want to be rendered on your web page
+```
+WebSocketClient.js:16 WebSocket connection to 'ws://localhost:3000/ws' failed: 
+```
+- Check to see if terminal is still running
+- $ yarn start
 
+```
+src/App.js
+  Line 11:10:  'Tracker' is not defined  react/jsx-no-undef
+```
+- make sure your component is imported and called
 
 ## Build your display component
 - Select the src folder in your text editor
