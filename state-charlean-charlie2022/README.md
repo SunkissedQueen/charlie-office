@@ -82,12 +82,14 @@ export default App
 
 - Just like any method, it is not doing anything until it gets called. And we want to call our method when the button gets clicked. So we need an onClick attribute.
 
-- App.js is the highest level component. It is the class that puts everything else on the page. We are going to group all the other components we create into another folder. This is just a convention to keep our files organized. Inside of src we are going to create a new folder called components.
-
-- Cut the logic coding from App.js and paste it into a new component class file.
+- App.js is the highest level component. It is the class that outlines where everything will be displayed on the page. We are going to group all the other components into another folder.
+- Inside of `src` we are going to create a new folder called `components`.
+- Inside of `components`, we will create a file called `Tracker.js`
+- Cut the logic from `App.js` and paste it into `Tracker.js`
 
 - App.js needs to know how to find the new component file.
 > Import the component
+
 > Call the component in the return
 
 Logic Component
@@ -121,7 +123,7 @@ class Tracker extends Component {
 export default Tracker
 ```
 
-Styling:
+## Styling:
 - Option 1: Add id attribute to the open tag of the element you want to change. Suggest using a div tag because it makes styling easier. Then make changes to the id attribute in App.css
 
 - Option 2: Use a class attribute ---> `className="square"`
