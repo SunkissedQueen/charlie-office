@@ -1,0 +1,10 @@
+* {
+  text-align: center;
+}
+
+#square {
+  border: 6px solid purple;
+  width: 150px;
+  height: 100px;
+  margin: 0 auto;
+} 
