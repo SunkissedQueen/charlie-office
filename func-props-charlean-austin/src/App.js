@@ -19,16 +19,16 @@ class App extends Component {
   render() {
     return (
       <>
-      <h1>Charlie's BBQ</h1>
-      <h2>Adult Menu</h2>
-      <Plate foodItem={this.state.adultMenu} fillPlate={this.fillPlate}/>
-      <h2>Kids Menu</h2>
-      <Plate foodItem={this.state.kidMenu} fillPlate={this.fillPlate}/>
-      <h3>What's on your plate?</h3>
-      <ul>
-          {this.state.plate.map((value, index) => {
-            return <li key={index}> {value} </li>
-          })}
+        <h1>Charlie's BBQ</h1>
+        <h2>Adult Menu</h2>
+        <Plate foodItem={this.state.adultMenu} fillPlate={this.fillPlate}/>
+        <h2>Kids Menu</h2>
+        <Plate foodItem={this.state.kidMenu} fillPlate={this.fillPlate}/>
+        <h3>What's on your plate?</h3>
+        <ul>
+            {this.state.plate.map((value, index) => {
+              return <li key={index}> {value} </li>
+            })}
         </ul>
       </>
     )

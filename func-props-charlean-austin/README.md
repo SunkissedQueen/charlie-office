@@ -1,3 +1,7 @@
+# Functional Props
+
+Reference [Functional Props](https://github.com/learn-academy-2022-charlie/Syllabus/blob/main/react/functional-props.md)
+
 ## Create React App
  - $ git pull origin main
  - $ git status
@@ -9,6 +13,24 @@
 
 Open additional tabs in the terminal
  - `command + t`
+
+## Basic Class Component
+```javascript
+import React, { Component } from 'react'
+
+class App extends Component{
+  render(){
+    return(
+      <>
+        <h1>A Basic Class Component</h1>
+      </>
+    )
+  }
+}
+
+export default App
+```
+Reference [Create React App](https://github.com/learn-academy-2022-charlie/Syllabus/blob/main/react/create-react-app.md)
 
 ## Build a display class component
 ```javascript
@@ -70,7 +92,7 @@ export default App
  - Using props pass the state object data through the component call
     > made a variable to store the data
     > In child component, change state to props and the variable name
-    > Any additional variables will need to a component call with its appropriate state object data
+    > Any additional variables will need a component call with its appropriate state object data
 
 ## Error Message
 ```
